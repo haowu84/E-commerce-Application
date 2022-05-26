@@ -20,19 +20,7 @@ const StyledNavLink = styled(NavLink)`
   text-decoration: none;
 `;
 
-/**
- * To be able to navigate around the website we have these NavLink's (Notice
- * that they are "styled" NavLink's that are now named StyledNavLink)
- * <br>
- * Whenever you add a NavLink here make sure to add a corresponding Route in
- * the Content Component
- * <br>
- * You can add as many Link as you would like here to allow for better navigation
- * <br>
- * Below we have two Links:
- * <li>Home - A link that will change the url of the page to "/"
- * <li>Login - A link that will change the url of the page to "/login"
- */
+
 const NavBar = () => {
     return (
         <StyledNav>
