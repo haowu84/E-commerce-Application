@@ -1,0 +1,24 @@
+{
+  "idmUrl": "http://localhost:8084/idm",
+  "moviesUrl": "http://localhost:8084/movies",
+  "billingUrl": "http://localhost:8084/billing",
+  "idm": {
+    "login": "/login",
+    "register": "/register",
+    "refresh": "/refresh"
+  },
+  "movies": {
+    "movie_search": "/movie/search",
+    "movie_id": "/movie/"
+  },
+  "billing": {
+    "cart_insert": "/cart/insert",
+    "cart_update": "/cart/update",
+    "cart_delete_id": "/cart/delete/",
+    "cart_retrieve": "/cart/retrieve",
+    "cart_clear": "/cart/clear",
+    "order_list": "/order/list",
+    "order_payment": "/order/payment",
+    "order_complete": "/order/complete"
+  }
+}
