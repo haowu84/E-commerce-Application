@@ -13,7 +13,7 @@ Dom Navigation\
 User Input\
 REST Calls
 
-**React Native/**\
+**React Native**\
 Mobile Interface
 
 
