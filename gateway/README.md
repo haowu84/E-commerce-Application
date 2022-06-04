@@ -1,4 +1,4 @@
-# CS122B Backend 4 - The Gateway Service
+# Backend - The Gateway Service
 
 #### [Application](#application)
 
