@@ -1,4 +1,4 @@
-# CS122B Backend 1 - The IDM Service
+# Backend - The IDM Service
 
 #### [Application](#application)
  - [pom.xml](#pomxml)
