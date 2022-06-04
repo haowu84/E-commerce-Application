@@ -1,4 +1,4 @@
-# CS122B Frontend
+# Frontend
 
 - [Setup Instructions](#setup-instructions)
 - [React](#react)
