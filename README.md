@@ -8,27 +8,27 @@
 
 ## Backend
 
-### Backend 1: IDM Service
-The Identity Management Service for User to Login and Register as well as AccessToken creation, refreshing, and verification. 
+### Backend: IDM Service
+The Identity Management Service for user to Login and Register as well as access token creation, refreshing, and verification. 
 
-### Backend 2: Movies Service
-The Movie search Service allowing Users to search for Movies and Persons using search parameters. 
+### Backend: Movies Service
+The Movie search Service allowing users to search for Movies and Persons using search parameters. 
 
-### Backend 3: Billing Service
-The Billing Service for User cart management and order creation, confirmation and history. 
+### Backend: Billing Service
+The Billing Service for user cart management and order creation, confirmation and history. 
 
-### Backend 4: Gateway Service
+### Backend: Gateway Service
 The Gateway Service to bring together the `IDM`, `Movies` and `Billing` Service by either forwarding `IDM` Requests to `IDM` Service or Authenticating all other incoming requests with the `IDM` before forwarding them to either the `Movies` or `Billing` Services. 
 
 ## Frontend
 
-### Frontend 1: Register
+### Frontend: Register
 Start of Frontend. Develop the Register endpoint and make a call to our IDM Service. 
 
-### Frontend 2: Search
+### Frontend: Search
 Movies Search. Create a interactive search page to search through our movies. 
 
-### Frontend 3: Full
+### Frontend: Full
 Full implementation of our Backend services to our frontend through our gateway. 
 
 ## Languages
