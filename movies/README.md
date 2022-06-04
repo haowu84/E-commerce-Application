@@ -1,4 +1,4 @@
-# CS122B Backend 2 - The Movies Service
+# Backend - The Movies Service
 
 #### [Application](#application)
  - [pom.xml](#pomxml)
