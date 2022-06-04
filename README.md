@@ -1,84 +1,35 @@
-# CS122B - Projects in Databases and Web Applications
+# E-commerce-Application with React, Spring Boot, MySQL
 
- - [Homework](#homework)
  - [Backend](#backend)
  - [Frontend](#frontend)
- - [Activities](#activities)
  - [Languages](#languages)
  - [Tools](#tools)
  - [Frameworks](#frameworks)
 
-## Homework
-
-### Homework 1: Setup Service
-Empty service to practice setting up project files and enviroment \
-[Starter Template](https://github.com/klefstad-teaching/CS122B-HW1-Setup-Service-Starter)
-
-### Homework 2: Basic Service
-Basic Spring Boot service to learn the basics of Spring. \
-[Starter Template](https://github.com/klefstad-teaching/CS122B-HW2-Basic-Service-Starter)
-
 ## Backend
 
 ### Backend 1: IDM Service
-The Identity Management Service for User to Login and Register as well as AccessToken creation, refreshing, and verification. \
-[Starter Template](https://github.com/klefstad-teaching/CS122B-BE1-IDM-Service-Starter)
+The Identity Management Service for User to Login and Register as well as AccessToken creation, refreshing, and verification. 
 
 ### Backend 2: Movies Service
-The Movie search Service allowing Users to search for Movies and Persons using search parameters. \
-[Starter Template](https://github.com/klefstad-teaching/CS122B-BE2-Movies-Service-Starter)
+The Movie search Service allowing Users to search for Movies and Persons using search parameters. 
 
 ### Backend 3: Billing Service
-The Billing Service for User cart management and order creation, confirmation and history. \
-[Starter Template](https://github.com/klefstad-teaching/CS122B-BE3-Billing-Service-Starter)
+The Billing Service for User cart management and order creation, confirmation and history. 
 
 ### Backend 4: Gateway Service
-The Gateway Service to bring together the `IDM`, `Movies` and `Billing` Service by either forwarding `IDM` Requests to `IDM` Service or Authenticating all other incoming requests with the `IDM` before forwarding them to either the `Movies` or `Billing` Services. \
-[Starter Template](https://github.com/klefstad-teaching/CS122B-BE4-Gateway-Service-Starter)
+The Gateway Service to bring together the `IDM`, `Movies` and `Billing` Service by either forwarding `IDM` Requests to `IDM` Service or Authenticating all other incoming requests with the `IDM` before forwarding them to either the `Movies` or `Billing` Services. 
 
 ## Frontend
 
-### Frontend: Starter
-Starter code that will be used through all three parts of the front end. \
-[Starter Template](https://github.com/klefstad-teaching/CS122B-FE-Starter)
-
 ### Frontend 1: Register
-Start of Frontend. Develop the Register endpoint and make a call to our IDM Service. \
-[Documentation](https://github.com/klefstad-teaching/CS122B-FE-Starter/blob/main/FRONTEND-1.md)
+Start of Frontend. Develop the Register endpoint and make a call to our IDM Service. 
 
 ### Frontend 2: Search
-Movies Search. Create a interactive search page to search through our movies. \
-[Documentation](https://github.com/klefstad-teaching/CS122B-FE-Starter/blob/main/FRONTEND-2.md)
+Movies Search. Create a interactive search page to search through our movies. 
 
 ### Frontend 3: Full
-Full implementation of our Backend services to our frontend through our gateway. \
-[Documentation](https://github.com/klefstad-teaching/CS122B-FE-Starter/blob/main/FRONTEND-3.md)
-
-## Activities
-
-### Activity 1: Spring
-An intro into the basics of Spring \
-[Repository](https://github.com/klefstad-teaching/CS122B-A1-Spring)
-
-### Activity 2: Security
-Service security using: Password Salt + Hashing, JSON Web Tokens, and Refresh Tokens. \
-[Repository](https://github.com/klefstad-teaching/CS122B-A2-Security)
-
-### Activity 3: Database
-Connecting to SQL Databases through Spring's NamedParameterJDBCTemplate. \
-[Repository](https://github.com/klefstad-teaching/CS122B-A3-Database)
-
-### Activity 4: SQL
-Advanced SQL query creation with dynamic queries. \
-[Repository](https://github.com/klefstad-teaching/CS122B-A4-SQL)
-
-### Activity 5: Stripe
-Communication with the Stripe API with the Stripe SDK for managing user payments. \
-[Repository](https://github.com/klefstad-teaching/CS122B-A5-Stripe)
-
-### Activity 6: Reactor
-Reactor Core with dealing with Mono and Flux calls. \
-[Repository](https://github.com/klefstad-teaching/CS122B-A6-Reactor)
+Full implementation of our Backend services to our frontend through our gateway. 
 
 ## Languages
 
@@ -142,13 +93,3 @@ A Java framework that helps develop web applications. \
 ### React
 A Javascript framework that helps with web UI development by helping us easily control the DOM of the website. \
 [Website](https://reactjs.org/) 
-
-## CS122B Dependencies
-
-### CS122B-Parent
-Holds the Parent POM for Maven to keep all dependency versions consistent. \
-[Repository](https://github.com/klefstad-teaching/CS122B-Parent)
-
-### CS122B-Core
-Holds common modules that are used through the project, such as Managers, Filters, and all Result constants for the Backend Endpoints. \
-[Repository](https://github.com/klefstad-teaching/CS122B-Core)
