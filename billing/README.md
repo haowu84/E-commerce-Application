@@ -325,8 +325,6 @@ A convient function to use to get our roles our of our `SignedJWT` is  `.getStri
 
 **Very Important** For all values that deal with money, Including those in our `ResponseModel` We want to make sure we are returning a type of `BigDecimal` with a scale set to `2`. The tests will fail if we do not have it set to this scale as json considers: `14.5500` different than `14.55`.
 
-Refer to Activity 5 for how to deal with [BigDecimal](https://github.com/klefstad-teaching/CS122B-A5-Stripe#bigdecimal) on how to deal with `BigDecimal`'s especially the last part with dealing with scale and rounding.
-
 ### Applying Discount For Premium Users
 
 User's that have the `Premium` role have a diffrent `UnitPrice` that must be calculated by using the `discount` column in the table. Calculating the `DiscountedUnitPrice` requires we follow a very specific algorithm that is described below:
@@ -871,8 +869,6 @@ The PaymentIntent should be created with these three properties
 1. **Amount:** The total amount of the carts contents. (Refer to [Formula for applying the discount](#formula-for-applying-the-discount) on how to do this for `Premium` users)
 2. **Description:** The description of the movie's titles in list format (\<title>, \<title>, ... , \<title>). 
 3. **Metadata:** The key-value pair of "userId": \<userId stored in the users JWT>
-
-Refer to Activity 5 for how to deal with [BigDecimal](https://github.com/klefstad-teaching/CS122B-A5-Stripe#bigdecimal) on how to deal with `BigDecimal`'s especially the last part with dealing with scale and rounding.
 
 
 ### Path
