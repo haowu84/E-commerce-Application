@@ -390,7 +390,7 @@ FROM movies m
  
 ### Substring Search
  
-For queries marked as (Search by [substring](#substring-search)) make sure to have the value surrounded by '%' **on both sides** (`%value%`)to allow for search by sub-string. Refer to this section in the activity: [Wildcard String Matching](https://github.com/klefstad-teaching/CS122B-A4-SQL/blob/main/README.md#wildcard-string-matching)
+For queries marked as (Search by [substring](#substring-search)) make sure to have the value surrounded by '%' **on both sides** (`%value%`)to allow for search by sub-string.
  
 # Endpoints
 
