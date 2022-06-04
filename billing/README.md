@@ -1,4 +1,4 @@
-# CS122B Backend 3 - The Billing Service
+# Backend - The Billing Service
 
 #### [Stripe](#stripe)
 
