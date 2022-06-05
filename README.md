@@ -8,44 +8,42 @@
 
 ## Backend
 
-### Backend: IDM Service
+### IDM Service
 The Identity Management Service for user to Login and Register as well as access token creation, refreshing, and verification. 
 
-### Backend: Movies Service
-The Movie search Service allowing users to search for Movies and Persons using search parameters. 
+### Movies Service
+The Movie search Service for user to search for movies and persons using search parameters. 
 
-### Backend: Billing Service
-The Billing Service for user cart management and order creation, confirmation and history. 
+### Billing Service
+The Billing Service for user to manage cart and order creation, confirmation and history. 
 
-### Backend: Gateway Service
+### Gateway Service
 The Gateway Service to bring together the `IDM`, `Movies` and `Billing` Service by either forwarding `IDM` Requests to `IDM` Service or Authenticating all other incoming requests with the `IDM` before forwarding them to either the `Movies` or `Billing` Services. 
 
 ## Frontend
 
-### Frontend: Register
-Start of Frontend. Develop the Register endpoint and make a call to our IDM Service. 
+### Register
+Register a new user 
 
-### Frontend: Search
+### Register
+Register user 
+
+### Search
 Movies Search. Create a interactive search page to search through our movies. 
 
-### Frontend: Full
-Full implementation of our Backend services to our frontend through our gateway. 
 
 ## Languages
 
 ### Java OpenJDK
-We are using the **OpenJDK** of Java. \
 Version 8 \
 [Adoptium Download](https://adoptium.net/?variant=openjdk8) \
 [Azul Zulu Download](https://www.azul.com/downloads/?version=java-8-lts&package=jdk)
 
 ### SQL
-MySQL is the Dialect for this project. \
 Version 8.0.x \
 [MySQL Community Server Download](https://dev.mysql.com/downloads/mysql/)
 
 ### Javascript
-Project is written to target Node.js. \
 Version 16.14.x LTS \
 [Node.js Download](https://nodejs.org/en/)
 
@@ -54,11 +52,9 @@ The primary object representation we will be using for communication between our
 [JSON](https://www.json.org/json-en.html)
 
 ### HTML
-While we will not be using raw html, React uses `JSX` that represent html components. \
 [React JSX](https://reactjs.org/docs/introducing-jsx.html)
 
 ### CSS
-CSS can either be written as css files and imported directly, or made with `styled-components`. \
 [styled-components](https://styled-components.com/)
 
 ## Tools
