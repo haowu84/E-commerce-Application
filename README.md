@@ -22,14 +22,145 @@ The Gateway Service to bring together the `IDM`, `Movies` and `Billing` Service 
 
 ## Frontend
 
-### Register
-Register a new user 
+### Login Page 
 
-### Register
-Register user 
+<table>
+  <thead>
+    <tr>
+      <th align="left" width="1100">📄&nbsp;&nbsp;Login</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr></tr>
+    <tr>
+      <td align="left" >This page facilitates user login. It should be the first thing a user sees when they first visit your website. Users must be logged in before performing any other actions on your website. If the login process succeeds, the user will be redirected to the home page.</td>
+    </tr>
+  </tbody>
+</table>
 
-### Search
-Movies Search. Create a interactive search page to search through our movies. 
+### Register Page 
+
+<table>
+  <thead>
+    <tr>
+      <td align="left" width="1100">📄&nbsp;&nbsp;Register</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr></tr>
+    <tr>
+      <td align="left" >This page facilitates user account registration. If the register process succeeds, the user will be redirected to the login page.</td>
+    </tr>
+  </tbody>
+</table>
+
+### Search Page 
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="2"  align="left" width="1100">📄&nbsp;&nbsp;Search</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr></tr>
+    <tr>
+      <td  colspan="2" align="left" >This view allows a logged-in user to search for movies. It should include a search bar, filters, pagination, and a results area. It will make a REST call to the <code>/movies/search</code> endpoint of your Movies microservice. This page view should include at least the following elements:</td>
+    </tr>
+    <tr>
+      <td align="left">Search Bar</td><td align="left" >This area is where users can enter text pertaining to movies they want to view.</td>
+    </tr>
+    <tr></tr>
+    <tr>
+      <td align="left" >Filters</td><td align="left" >Users will be able to search for movies by <code>title</code>, <code>year</code>, <code>director</code>, and / or <code>genre</code>.</td>
+    </tr>
+    <tr></tr>
+    <tr>
+      <td align="left" rowspan="9">Pagination</td> 
+    <tr>
+    <tr>
+      <td align="left" >Users should be able to select the sort by <code>title</code> (default selection), <code>rating</code>, or <code>year</code></td> 
+    <tr>
+    <tr>
+      <td align="left" >Users should be able to select the order by <code>asc</code> (default selection) or <code>desc</code></td> 
+    <tr>
+    <tr>
+      <td align="left" >Users should be able to select the amount of movies to list <code>10</code> (default selection), <code>25</code>, <code>50</code> or <code>100</code></td> 
+    <tr>
+    <tr>
+      <td align="left" >Users should be able to go to the <code>next</code> or <code>previous</code> page of the search results</td> 
+    <tr></tr>
+    <tr>
+      <td align="left" >Results Area</td> <td align="left" >All results from a search query will be displayed here as a table. The table will have columns corresponding to each movie's title, year, and director. A new search should update these results.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+### Movie Detail Page
+
+<table>
+  <thead>
+    <tr>
+      <td align="left" width="1100">📄&nbsp;&nbsp;Movie Detail</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr></tr>
+    <tr>
+     <td align="left" >This page allows a user to view all the details of a single movie. The user must be allowed to add the movie to their shopping cart with a specified quantity.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+### Shopping Cart Page
+
+<table>
+  <thead>
+    <tr>
+      <td align="left" width="1100">📄&nbsp;&nbsp;Shopping Cart</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr></tr>
+    <tr>
+      <td align="left" >This page facilitates a user viewing the items they have in their cart. Cart items should display the title, quantity, and total price of each movie (quantity * price). The total amount (sum of all costs) must be displayed. Users must be allowed to update the quantity of each item in their cart or remove items entirely. Updating the cart should also update the displayed cart items and prices. This page should provide a link to <code>Checkout Page</code> using Stripe for when the user is ready to finalize their purchase.</td>
+    </tr>
+  </tbody>
+</table>
+
+### Order History Page
+
+<table>
+  <thead>
+    <tr>
+      <td align="left" width="1100">📄&nbsp;&nbsp;Order History</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr></tr>
+    <tr>
+      <td align="left" >This page facilitates a user viewing all of their previous purchases (It will show max 5 as this is what the endpoint will show). Each history entry should display the date and amount paid for a given order.</td>
+    </tr>
+  </tbody>
+</table>
+
+## Checkout Page
+
+<table>
+  <thead>
+    <tr>
+      <td align="left" width="1100">📄&nbsp;&nbsp;Checkout</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr></tr>
+    <tr>
+      <td align="left" >This page will show the <code>CheckoutForm.jsx</code> provided by Stripe found here: <a href="https://stripe.com/docs/payments/quickstart">Custom Payment Flow</a>. (We start by getting our creating our <code>PaymentIntent</code> (by calling our <code>GET /order/payment</code> endpoint) to get our <code>paymentIntentId</code> and <code>clientSecret</code> and then after the payment is complete (by calling <code>retrievePaymentIntent(clientSecret)</code> promise) we call our <code>POST /order/complete</code> endpoint to complete the order.</td>
+    </tr>
+  </tbody>
+</table>
 
 
 ## Languages
