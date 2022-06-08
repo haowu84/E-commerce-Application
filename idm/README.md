@@ -42,8 +42,6 @@ Spring Boot has a large number of settings that can be set with a file called `a
 
 ### Resources
 
-There are two folders in this project that contain resources, and application settings, as well as files required for the tests.
-
  - [Main Resources](/src/main/resources)
 
 
