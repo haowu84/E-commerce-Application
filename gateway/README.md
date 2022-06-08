@@ -43,21 +43,11 @@ have already created this file for you and have filled it with some settings. Th
 the main application as well as one for the tests.
 
 - [Main application.yml](/src/main/resources/application.yml)
-- [Test application.yml](/src/test/resources/application.yml)
 
 ### Resources
 
-There are two folders in this project that contain resources, and application settings, as well as
-files required for the tests.
-
 - [Main Resources](/src/main/resources)
-- [Test Resources](/src/test/resources)
 
-### Tests
-
-There is a Single class that contain all of our test cases:
-
-- [GatewayServiceTest](/src/test/java/com/github/klefstad_teaching/cs122b/gateway/GatewayServiceTest.java)
 
 ## Database
 
