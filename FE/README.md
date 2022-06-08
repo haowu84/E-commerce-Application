@@ -17,7 +17,7 @@
 
 ## React
 
-We will be using `React` to help build our frontend. `React` as the name implies is a library that updates the html to *react* to internal changes in our javascript code.
+`React` as the name implies is a library that updates the html to *react* to internal changes in our javascript code.
 
 ### Making a React Component
 
