@@ -59,20 +59,11 @@ Maven gets all its settings from a file called `pom.xml`. This file determines t
 Spring Boot has a large number of settings that can be set with a file called `application.yml`. We have already created this file for you and have filled it with some settings. There is a file for the main application as well as one for the tests. 
 
  - [Main application.yml](/src/main/resources/application.yml)
- - [Test application.yml](/src/test/resources/application.yml)
 
 ### Resources
 
-There are two folders in this project that contain resources, and application settings, as well as files required for the tests.
-
  - [Main Resources](/src/main/resources)
- - [Test Resources](/src/test/resources)
 
-### Tests
-
-There is a Single class that contain all of our test cases: 
-
- - [BillingServiceTest](/src/test/java/com/github/klefstad_teaching/cs122b/billing/BillingServiceTest.java)
 
 ## Database
 
