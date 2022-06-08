@@ -157,7 +157,7 @@ The Gateway Service to bring together the `IDM`, `Movies` and `Billing` Service 
   <tbody>
     <tr></tr>
     <tr>
-      <td align="left" >This page will show the <code>CheckoutForm.jsx</code> provided by Stripe found here: <a href="https://stripe.com/docs/payments/quickstart">Custom Payment Flow</a>. (We start by getting our creating our <code>PaymentIntent</code> (by calling our <code>GET /order/payment</code> endpoint) to get our <code>paymentIntentId</code> and <code>clientSecret</code> and then after the payment is complete (by calling <code>retrievePaymentIntent(clientSecret)</code> promise) we call our <code>POST /order/complete</code> endpoint to complete the order.</td>
+      <td align="left" >This page will show the <code>CheckoutForm.jsx</code> provided by Stripe found here: <a href="https://stripe.com/docs/payments/quickstart">Custom Payment Flow</a>. (start by getting our creating our <code>PaymentIntent</code> (by calling our <code>GET /order/payment</code> endpoint) to get our <code>paymentIntentId</code> and <code>clientSecret</code> and then after the payment is complete (by calling <code>retrievePaymentIntent(clientSecret)</code> promise) call <code>POST /order/complete</code> endpoint to complete the order.</td>
     </tr>
   </tbody>
 </table>
@@ -179,7 +179,7 @@ Version 16.14.x LTS \
 [Node.js Download](https://nodejs.org/en/)
 
 ### JSON
-The primary object representation we will be using for communication between our services and our frontend \
+The primary object representation for communication between our services and our frontend \
 [JSON](https://www.json.org/json-en.html)
 
 ### HTML
