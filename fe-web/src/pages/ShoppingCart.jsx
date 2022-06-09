@@ -120,7 +120,7 @@ const ShoppingCart = () => {
 
             {total > 0 && <p className="text-center">Total: ${total}</p>}
 
-            {!items && <StyledH1>Cart is Empty</StyledH1>}
+            {!items.length && <StyledH1>Cart is Empty</StyledH1>}
             <Table striped bordered hover>
                 <thead>
                 <tr>

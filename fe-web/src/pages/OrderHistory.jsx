@@ -46,8 +46,7 @@ const OrderHistory = () => {
         <StyledDiv>
             <StyledH1>Order History</StyledH1>
 
-            {!sales && <StyledH1>Order History is Empty</StyledH1>}
-
+            {!sales.length && <StyledH1>Order History is Empty</StyledH1>}
             <Table striped bordered hover>
                 <thead>
                 <tr>
